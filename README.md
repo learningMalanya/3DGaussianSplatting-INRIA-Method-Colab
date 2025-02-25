@@ -1,0 +1,1 @@
+# 3DGaussianSplatting-INRIA-Method-Colab
