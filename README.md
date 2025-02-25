@@ -11,7 +11,7 @@ To restore smooth functionality, I adapted camenduru’s approach, resolving ver
 
 - **Original Repo**: [graphdeco-inria/gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting)  
 - **Inspired By**: [camenduru’s Colab template (August 2023)](https://github.com/camenduru)  
-- **Notebook**: [colab_notebook.ipynb](colab_notebook.ipynb)  
+- **Notebook**: [3DGaussianSplatting_INRIA_Method_Colab.ipynb](3DGaussianSplatting_INRIA_Method_Colab.ipynb)  
 
 ## **What’s Updated?**  
 Colab’s default setup (Python 3.11, CUDA 12.4, PyTorch 2.x) no longer aligns with INRIA’s original environment. To ensure compatibility on a **Tesla T4**, I made the following adjustments:  
@@ -24,7 +24,7 @@ Colab’s default setup (Python 3.11, CUDA 12.4, PyTorch 2.x) no longer aligns w
 With these fixes, the notebook **trains successfully** and **renders 3D scenes** in Colab!  
 
 ## **How to Use It**  
-1. Open [colab_notebook.ipynb](colab_notebook.ipynb) in Colab.  
+1. Open [3DGaussianSplatting_INRIA_Method_Colab.ipynb](3DGaussianSplatting_INRIA_Method_Colab.ipynb) in Colab.  
 2. Run all cells—this will install dependencies, train on the **Tanks & Temples dataset** (`tandt_db.zip`), and render images.  
 3. Check `/content/gaussian-splatting/output/[random_id]/` for your `.ply` and rendered PNGs (`train/` or `test/`).  
 
